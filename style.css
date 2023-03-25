@@ -1,0 +1,136 @@
+
+
+
+/*********************************************** NAV BAR *********************************/
+
+.btn{
+    --bs-btn-border-radius: 0.25rem;
+}
+
+.nav-link{
+/* Body/Regular */
+/* font-family: 'Helvetica Neue'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+/* Theme/Primary */
+color: #0D6EFD;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+a.navbar-toggler {
+    border:0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/*********************************************** CAROUSEL *********************************/
+
+.d-block{
+    /* components/carousel-item */
+    width: 100%;                   /* 1728px*/
+    height: auto;             /* 591px; */
+    background: #777777;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    font-weight: bold;
+    /* align-self:flex-start; */
+    flex-grow: 1;
+    opacity:0.5;
+}
+
+.d-md-block{
+    color:rgb(17, 16, 16);
+    font-size:15px;
+    font-weight: 700;
+}
+.slideHeading{
+    font-size:50px;
+    font-weight: bold;
+}
+
+
+/*********************************************** TITLE SECTION *********************************/
+
+.titleSection{
+    padding:20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+
+/*********************************************** ACCORDIAN SECTION *******************************/
+
+.accordianSection{
+    margin-left: 16px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+/*********************************************** CARD SECTION *********************************/
+
+.cardSection{
+    padding: 20px;
+}
+
+/*********************************************** TABLE SECTION *********************************/
+
+.tableSection{
+    padding: 20px;
+}
+.tableItems{
+    text-decoration: none;
+    padding: 2px;
+    display: inline;
+}
+.th1{
+    width:2%;
+}
+.th2{
+    width:5%;
+}
+.th3{
+    width:25%;
+}
+.th6{
+    width:15%;
+}
+/*********************************************** FOOTER *********************************/
+
+.footerContainer{
+    padding: 20px;
+}
+
+.footer-heading{
+    width: 121px;
+    height: 24px;
+    /* Body/Bold */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    display: flex;
+    align-items: center;
+    /* Body Text/Body Color */
+    color: #212529;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+
+.formItems{
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+

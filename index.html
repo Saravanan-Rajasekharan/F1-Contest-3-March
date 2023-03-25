@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Contest</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!--<a class="navbar-brand" href="#">CompanyName</a> -->
+          <a class="title navbar-brand navbar-toggler" data-bs-toggle="collapse" href="#" >Incredible India</a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Features</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact Us</a> </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- Carousel -->
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/taj-mahal.jpeg" class="d-block w-100" alt="image-one">
+            <div class="carousel-caption d-sm-block d-md-block">
+              <h5 class="slideHeading">Agra</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/jk.webp" class="d-block w-100" alt="image-two">
+            <div class="carousel-caption d-sm-block d-md-block">
+              <h5 class="slideHeading">Jammu & Kashmir</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/thar.jpg" class="d-block w-100" alt="image-three">
+            <div class="carousel-caption d-sm-block d-md-block">
+              <h5 class="slideHeading">Rajasthan</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/mnr.jpg" class="d-block w-100" alt="image-four">
+            <div class="carousel-caption d-sm-block d-md-block">
+              <h5 class="slideHeading">Kerala</h5>
+              <p>Some representative placeholder content for the fourth slide.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- Title Section -->
+
+      <section class="titleSection">
+
+        <div class="titleHeading"><h5>Text Title</h5></div>
+        <div class="titlePara">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laborum nulla sequi, non ullam exercitationem illum. Explicabo neque, officia itaque, delectus ipsam nemo fugiat unde laudantium aliquam voluptatem illum eum eos perferendis accusamus, modi iusto. Eveniet laudantium fugit sint provident quos labore corrupti officia quibusdam quas, amet praesentium commodi delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatibus aliquid libero qui ratione quae asperiores ipsa, dolore numquam impedit quidem animi rem magni eveniet tenetur pariatur, tempore eaque rerum itaque officiis atque! Eligendi, in nostrum necessitatibus, saepe asperiores harum voluptate possimus placeat reiciendis, commodi ratione corporis nulla nihil delectus. Blanditiis quo nihil architecto sapiente aperiam corrupti hic totam, tempore voluptates numquam qui voluptatem quos delectus, dolore iure saepe exercitationem perferendis suscipit eum quam nemo fugit sequi excepturi consequatur. Vel et vitae, voluptas ad eum ipsam distinctio quae ut aut ex illo reprehenderit, quaerat sit sequi? Consectetur laudantium totam sint.</p>
+        </div>
+
+      </section>
+      
+      <!-- Accordian Section -->
+
+      <div class="accordianSection">
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item 
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, labore.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item 
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, reiciendis incidunt tempore quod nesciunt nemo!</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item 
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quaerat omnis optio facere corrupti exercitationem ratione, atque sapiente laboriosam explicabo minima, unde sint veniam dolor earum. Eum magnam recusandae voluptatum?</div>
+          </div>
+        </div>
+      </div>
+
+     </div>
+
+
+     <!-- Card Section -->
+
+     <section class="cardSection">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header text-body-secondary"> Card header</div>
+                    <img src="images/card-img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">1st item</li>
+                      <li class="list-group-item">2nd item</li>
+                      
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                       Card Footer
+                      </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header text-body-secondary"> Card header</div>
+                    <img src="images/card-img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">1st item</li>
+                      <li class="list-group-item">2nd item</li>
+                      
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                       Card Footer
+                      </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header text-body-secondary"> Card header</div>
+                    <img src="images/card-img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">1st item</li>
+                      <li class="list-group-item">2nd item</li>
+                      
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                       Card Footer
+                      </div>
+                  </div>
+            </div>
+            <div class="col">
+             <div class="card">
+                    <div class="card-header text-body-secondary"> Card header</div>
+                    <img src="images/card-img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">1st item</li>
+                      <li class="list-group-item">2nd item</li>
+                      
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                       Card Footer
+                      </div>
+             </div>
+            </div>
+          </div>
+
+
+
+
+
+
+<!-- 
+        <div >
+            <div class="card" style="width: 18rem;">
+                <div class="card-header text-body-secondary"> Card header</div>
+                <img src="images/card-img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1st item</li>
+                  <li class="list-group-item">2nd item</li>
+                  
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                   Card Footer
+                  </div>
+              </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header text-body-secondary"> Card header</div>
+                <img src="images/card-img2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1st item</li>
+                  <li class="list-group-item">2nd item</li>
+                  
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                   Card Footer
+                  </div>
+              </div>  
+
+           <div class="card" style="width: 18rem;">
+                <div class="card-header text-body-secondary"> Card header</div>
+                <img src="images/card-img3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1st item</li>
+                  <li class="list-group-item">2nd item</li>
+                  
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                   Card Footer
+                  </div>
+              </div>  
+           
+           <div class="card" style="width: 18rem;">
+                <div class="card-header text-body-secondary"> Card header</div>
+                <img src="images/card-img4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Sub title</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1st item</li>
+                  <li class="list-group-item">2nd item</li>
+                  
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                   Card Footer
+                  </div>
+              </div>   
+
+
+
+
+        </div>
+ -->
+
+
+     </section>
+
+
+     <!-- Table Section -->
+
+    <section class="tableSection">
+
+        <div>
+            <table class="table">
+                <thead>
+                  <tr >
+                    <th class="th1" scope="col"><input type="checkbox"></th>
+                    <th class="th2" scope="col">Title</th>
+                    <th class="th3" scope="col">Title</th>
+                    <th class="th3" scope="col">Title</th>
+                    <th class="th3" scope="col">Title</th>
+                    <th class="th6"scope="col">Title</th>
+                   
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr >
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                   <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td><i class="bi bi-grip-vertical"></i></td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>Text line</td>
+                    <td>
+                        <a class="tableItems" href="#">Publish</a>
+                        <a class="tableItems" href="#">Edit</a>
+                        <a class="tableItems" href="#">Delete</a>
+                    </td>
+                  </tr>
+
+
+
+                </tbody>
+              </table>
+
+        </div>
+
+    </section>
+
+
+      
+     
+     <!-- Footer Section -->
+
+    <footer>
+
+        <div class="footerContainer">
+        <form method="post">
+
+            
+
+        <div class="container">
+
+            <div class="footer-heading">Bootstrap Form</div>
+           <div class="row">
+            <div class="formItems col-12 col-md-6" > <input type="text" class="form-control" placeholder="First Name" required> </div>
+            <div class="formItems col-12 col-md-6"> <input type="text" class="form-control" placeholder="Last Name" required> </div> 
+        
+            
+                <div class="formItems email col-12"><input type="email" class="form-control" placeholder="Email" required> </div>
+
+                <div class="formItems password col-12"><input type="password" class="form-control"  placeholder="Password" required> </div>
+                <div class="formItems conPassword col-12"><input type="password" class="form-control" placeholder="Confirm Password" required> </div>
+           
+                <div class="formItems subbtn"><button type="submit" class="btn btn-primary">Submit Form</button></div>
+            </div>
+
+           </div>
+           
+          </form>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
